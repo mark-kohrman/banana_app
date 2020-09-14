@@ -1,0 +1,6 @@
+{
+  id: @banana.id,
+  country: @banana.country,
+  company: @banana.company,
+  price: @banana.price
+}
