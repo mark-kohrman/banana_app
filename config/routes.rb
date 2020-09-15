@@ -8,6 +8,7 @@ Rails.application.routes.draw do
     get "/bananas" => "bananas#index"
     post "/bananas" => "bananas#create"
     get "/bananas/:id" => "bananas#show"
+    patch "/bananas/:id" => "bananas#update"
 
   end
 end
