@@ -14,4 +14,10 @@ class Api::BananasController < ApplicationController
 
     render 'show.json.jb'
   end
+
+  def show
+    @banana = Banana.find_by(id: params[:id])
+
+    render 'show.json.jb'
+  end
 end
